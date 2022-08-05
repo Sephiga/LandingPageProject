@@ -17,6 +17,10 @@ header{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background: #4e3a1d;
 }
 
 ul{
@@ -27,6 +31,18 @@ ul{
 
 a:link{
     text-decoration: none;
+}
+
+a:hover{
+    font-style: italic;
+    background: chocolate;
+    border-radius: 8px;
+    width: 100vh;
+    height: 100vh;
+}
+
+button:hover{
+    text-decoration: underline;
 }
 
 a{
@@ -47,6 +63,7 @@ a{
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
+    max-width: 600px;
    
 
 }
@@ -57,19 +74,28 @@ a{
     justify-content: center;
 }
 
-img{
-    display: flex;
-    height: 200px;
+.goombella-img {
+    height: 420px;
     width: auto;
+    padding: 32px;
+}
+
+.goomba-img{
+    height: 100px;
+    width: 160px;
+    border: solid 8px brown;
+    border-radius: 10px;
+    
 }
 
 button{
     border-radius: 8px;
-    height: 42px;
-    width: 100px;
-    font-size: 11px;
+    height: 80px;
+    width: 300px;
+    font-size: 18px;
     background-color: orange;
     color: #3f2908;
+    
 }
 
 h1{
@@ -78,5 +104,27 @@ h1{
 }
 
 h4{
-    font-size: ;
+    font-size: 18px;
 }
+
+.middle{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+
+    align-items: flex-start;
+    color: #3f2908;
+    background-color: peachpuff;
+    height: 900px;
+}
+
+.info-header{
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.goomba{
+    display: flex;
+    
+}
+
