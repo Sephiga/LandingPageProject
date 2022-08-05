@@ -124,11 +124,11 @@ h4{
     font-weight: 500;
     font-size: 18px;
     flex-wrap: wrap;
+    text-align: center;
     
 }
 .goomba{
     max-width: 250px;
-    
 }
 
 
@@ -143,3 +143,32 @@ h4{
     
 }
 
+.middle2{
+    background: rgb(192, 150, 112);
+    
+}
+
+.quote-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+.quote{
+    width: 700px;
+    font-size: 36px;
+    font-style: italic;
+    text-align: start;
+}
+
+.bowser-img{
+    width: 60px;
+    height: 60px;
+
+}
+
+h2{
+    display: flex;
+    align-self: flex-end;
+    
+}
