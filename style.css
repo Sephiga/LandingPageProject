@@ -27,6 +27,8 @@ ul{
     list-style: none;
     display: flex;
     gap: 16px;
+    margin: 0;
+    padding: 0;
 }
 
 a:link{
@@ -36,9 +38,10 @@ a:link{
 a:hover{
     font-style: italic;
     background: chocolate;
-    border-radius: 8px;
-    width: 100vh;
-    height: 100vh;
+    font-weight: 700;
+    border-radius: 16px;
+    
+    
 }
 
 button:hover{
@@ -95,6 +98,7 @@ button{
     font-size: 18px;
     background-color: orange;
     color: #3f2908;
+    flex-shrink: 0;
     
 }
 
@@ -107,24 +111,35 @@ h4{
     font-size: 18px;
 }
 
-.middle{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-evenly;
-
-    align-items: flex-start;
+.middle-container{
     color: #3f2908;
     background-color: peachpuff;
-    height: 900px;
+    padding-bottom: 70px;
 }
+
+.goomba-container{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-weight: 500;
+    font-size: 18px;
+    flex-wrap: wrap;
+    
+}
+.goomba{
+    max-width: 250px;
+    
+}
+
 
 .info-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 150px;
     font-size: 36px;
     font-weight: bolder;
-}
-
-.goomba{
-    display: flex;
     
 }
 
