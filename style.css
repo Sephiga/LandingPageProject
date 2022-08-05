@@ -8,7 +8,7 @@ body{
 
 
 header{
-    font-weight: 900;
+    font-weight:1000;
     font-size: 24px;
 }
 
@@ -164,6 +164,7 @@ h4{
 .bowser-img{
     width: 60px;
     height: 60px;
+    
 
 }
 
@@ -171,4 +172,32 @@ h2{
     display: flex;
     align-self: flex-end;
     
+    
+}
+
+.middle3{
+    background: peachpuff
+
+
+}
+
+.signup-container{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 160px;
+    width: 800px;
+    color: #3f2908;
+    background-color: chocolate;
+    border-radius: 16px;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
 }
