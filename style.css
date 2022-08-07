@@ -1,6 +1,5 @@
 body{
-    background: #4e3a1d;
-    color: rgb(255, 255, 255);
+    background: linear-gradient(30deg, rgb(119, 70, 7), rgb(163, 99, 16), rgba(230, 181, 109, 0.863)); 
     font-family: "Roboto";
     display: flex;
     flex-direction:column;
@@ -20,7 +19,8 @@ header{
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    background: #4e3a1d;
+    background: linear-gradient(30deg,rgba(230, 181, 109, 0.863), rgb(163, 99, 16), rgb(119, 70, 7)); 
+    color: white;
 }
 
 ul{
@@ -37,9 +37,7 @@ a:link{
 
 a:hover{
     font-style: italic;
-    background: chocolate;
-    font-weight: 700;
-    border-radius: 16px;
+    font-weight: 900;
     
     
 }
@@ -92,7 +90,7 @@ a{
 }
 
 button{
-    border-radius: 8px;
+    border-radius: 16px;
     height: 80px;
     width: 300px;
     font-size: 18px;
@@ -156,7 +154,7 @@ h4{
 }
 .quote{
     width: 700px;
-    font-size: 36px;
+    font-size: 26px;
     font-style: italic;
     text-align: start;
 }
@@ -192,12 +190,45 @@ h2{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 160px;
-    width: 800px;
+    height: 120px;
+    width: 900px;
     color: #3f2908;
-    background-color: chocolate;
+    background-color: orange;
     border-radius: 16px;
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 800;
     text-align: center;
+    padding: 16px;
+}
+
+.button2{
+    border: solid 3px #3f2908;
+    border-radius: 16px;
+    height: 80px;
+    width: 260px;
+}
+
+.footer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(30deg, rgb(119, 70, 7), rgb(163, 99, 16), rgba(230, 181, 109, 0.863));
+}
+
+
+.footer .footer-child{
+    align-self: center;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.sephigoomba{
+    width: 126px;
+    height: 126px;
+}
+
+.socials{
+    height: 60px;
+    width: 60px;
 }
