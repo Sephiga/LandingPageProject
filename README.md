@@ -1,5 +1,4 @@
 # LandingPageProject
-Landing Page!
 
 This is my first CSS project!
 
